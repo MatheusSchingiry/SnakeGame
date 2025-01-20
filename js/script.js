@@ -137,6 +137,7 @@ function gameOver()
     menu.style.display = "flex";
     finalScore.innerText = score.innerText;
     canvas.style.filter = "blur(2px)";
+    velocity = 300;
 }
 
 function checkColition()
